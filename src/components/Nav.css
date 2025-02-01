@@ -1,0 +1,204 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+img{
+border-radius: 90rem;
+width:90px;
+cursor: pointer;
+}
+.logo{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    max-width: 100px;
+    display: flex;
+    justify-items: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    object-fit: cover;
+}
+.top_header{
+display: flex;   
+justify-content: space-between;
+align-items: center;
+background-image:linear-gradient(to bottom left, red, yellow);
+}
+h1{
+font-family: 'Times New Roman', Times, serif;
+color: rgb(22, 22, 80);
+font-variant: small-caps;
+}
+.search input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid rgb(49, 54, 54);
+    outline: none;
+    padding-right: 0;
+}
+.search button{
+    border-bottom-right-radius:5px;
+    border-top-right-radius: 5px;
+    border: 1px solid rgb(250, 4, 45);
+    color: black;
+    background-color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.search button:hover{
+    background-color: yellow;
+}
+.user{
+    display: flex;
+    margin-right: 10px;
+}
+.user button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: orangered;
+    font-size: 10px;
+}
+.last_header{
+    padding: 10px,10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: black;
+  
+}
+.user_profile{
+    display: flex;
+    margin-top: 10px;
+}
+.icon2{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10rem;
+}
+.info{
+    margin-left: 10px;
+}
+.info h2{
+    color: white;
+    font-size: 12px;
+    text-transform: capitalize;
+    text-decoration: wavy;
+}
+.info p{
+    color: white;
+    font-size: 14px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.nav{
+   margin-top: 10px;
+   display: flex;
+   align-items:  center;
+   justify-content: space-between;
+   position: sticky;
+   top: 0;
+}
+.nav ul{
+    display: flex;
+   align-items:  center;
+    
+}
+.nav li{
+    list-style: none;
+    transition: 0.5s;
+}
+.link{
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+.link :hover {
+    color: black;
+}
+.offer{
+    margin-right: 30px;
+    padding: 10px,30px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+    color: yellow;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    transition: 0.5s;
+}
+#cart{
+    color: yellow;
+    transition: 0.5s;
+}
+#cart :hover{
+    background-color: black;
+    color: peru;
+}
+.offer :hover{
+    background-color: black;
+    color: peru;
+}
+.offer p{
+    margin-top: 20px;
+    /* display: flex;
+    align-content: center;
+    flex-wrap: nowrap; */
+}
+.offer button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    color: yellow;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.offer button :hover{
+    background-color: black;
+    color: peru;
+}
+
+@media screen and (max-width:600px) {
+    .logo{
+       display: flex; 
+       justify-content:flex-start;
+       flex-wrap: wrap;
+       padding-top: 10px;
+    }
+    h1{
+        font-family: 'Courier New', Courier, monospace;
+        text-decoration: solid;
+        font-size: large;
+    }
+    .user{
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .user button{
+        font-size: 12px;
+    }  
+    .link{
+        margin-right: 10px;
+    }  
+    .info img{
+        width: 40px;
+    }
+    .info h2{
+        font-size: 8.6px;
+    }
+    .info p{
+        font-size: 8px;
+        margin-top: 1px;
+    }
+    .offer p{
+        font-size: 9px;
+        padding-top: 2px;
+    }
+    .nav{
+        font-size: smaller;
+    }
+}

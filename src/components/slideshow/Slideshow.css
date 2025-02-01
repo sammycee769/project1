@@ -1,0 +1,61 @@
+/* Center the slideshow at the top-middle of the page */
+.slideshow-container {
+  position: relative; 
+  /* background-color: black; */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Correct horizontal centering */
+  max-width: 100%; /* Adjust max-width to make images larger */
+  width: 1150px; /* Set a fixed width for the slideshow (optional) */
+  overflow: hidden;
+  z-index: 1; /* Ensure it appears above other elements */
+  display: block;
+ 
+}
+
+/* Increase image size */
+.slideshow-container img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0; /* No border radius */
+  margin: 0;
+  padding: 0;
+}
+
+/* Slides */
+.slide {
+  display: none;
+  text-align: center;
+}
+
+.slide.active {
+  display: block;
+}
+
+/* Caption */
+
+
+/* Scoped styles for slideshow buttons */
+.slideshow-container button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 10px;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  z-index: 10;
+}
+
+.slideshow-container button.prev {
+  left: 10px;
+}
+
+.slideshow-container button.next {
+  right: 10px;
+}
+
+.slideshow-container button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,68 @@
+.contact{
+    background:whitesmoke;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, .24) 0px 3px 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.hi{
+    background-color: white;
+}
+.contact h1{
+    color: green;
+    font-size: small;
+    padding-left: 15px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+.contact h2{
+    font-size: x-large;
+    font-weight: 600;
+    color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: flex-start;
+}
+.contact h3{
+    
+    display: flex;
+    justify-content: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-left: 20px;
+    ;
+}
+.contact h4{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact p{
+    padding-left: 10px;
+    padding-right: 30px;;
+    font-size: 15px;
+}
+.contact h5{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+}
+.ito a{
+    color: black;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.ito{
+    display: flex;
+    justify-content: center;
+}

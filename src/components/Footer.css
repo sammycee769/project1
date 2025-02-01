@@ -1,0 +1,42 @@
+.footer{
+    background-color: rgb(29, 26, 26);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ar{
+    color: rgb(128, 125, 125);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(29, 26, 26);
+    padding-top: 5px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(114, 112, 112);
+}
+.app{
+    color: rgb(128, 125, 125);  
+    background-color: rgb(29, 26, 26);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+   
+}
+.app a{
+    padding-left: 3px;
+}
+
+
