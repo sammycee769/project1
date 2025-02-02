@@ -91,7 +91,7 @@ export default function Nav() {
             </ul>
             </div>
             <div className='offer'><button ><Link as={Link} to='/cart' id='cart'> Cart<FaCartShopping/> </Link></button>
-            <p>Get 10% off on first Orders</p>
+            <p>Get 10% off on all first Orders</p>
             </div>
         </div>
     </div>
